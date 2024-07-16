@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="icon" href="./assets/img/alura.svg">
+        <script src="./assets/js/script.js" async></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" async></script>
+        <title>Aluraflix</title>
+    </head>
+    <body>
+        <main>
+            <div id="div-agregar-pelicula">
+                <div>
+                    <img id="alura-logo" src="./assets/img/27dcfz-LogoMakr.png" alt="Logo AluraFlix">
+                </div>
+                <div>
+                    <input class="input-agregar-pelicula" id="nombre-de-la-nueva-pelicula" placeholder="Nombre de la Película"><br>
+                    <input class="input-agregar-pelicula" id="url-de-la-nueva-pelicula" placeholder="URL de la Portada en PNG/JPG"><br>
+                    <button id="button-agregar-pelicula" type="button" onclick="agregarPelicula()">Agregar Película</button>
+                </div>
+            </div>
+            <div id="lista-de-peliculas"></div>
+        </main>
+        <footer>
+            <img src="./assets/img/movies.png" alt="Logo Inmersión DEV">
+        </footer>
+    </body>
+</html>
